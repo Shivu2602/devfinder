@@ -239,9 +239,11 @@ function renderRepositories(repositories) {
     const repoCard = document.createElement("div");
     repoCard.className = "repo-card";
     repoCard.innerHTML = `
-    <h3>${repo.name}</h3>
-    <p>Topics: ${repo.topics ? repo.topics.join(", ") : "N/A"}</p>
-  `;
+      <h3>${repo.name}</h3>
+      <p>${repo.description || "No description available"}</p>
+      <p>Language: ${repo.language || "N/A"}</p>
+      <p>Topics: ${repo.topics ? repo.topics.join(", ") : "N/A"}</p>
+    `;
     reposContainer.appendChild(repoCard);
   });
 }
