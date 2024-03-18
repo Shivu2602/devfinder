@@ -40,7 +40,7 @@ DevFinder is a simple web application that allows users to search for GitHub pro
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/Shivu2602/devfinder.git
+   git clone https://github.com/shiivam-mishra/devfinder.git
 
    ```
 
